@@ -25,7 +25,7 @@
 **2019-4-21** — 發現作業六關於[型別判斷的問題](<https://www.cupoy.com/qa/kwassist/ai_tw/0000016A3B608C23000003B66375706F795F72656C656173655155455354>)，並且修改程式碼。有下面兩種寫法。
 
 ```python
-app_train.dtypes.isin([np.dtype('int64'),np.dtype('float64')]) 
-app_train.select_dtypes(include=['float64', 'int64'])
+df.dtypes.isin([np.dtype('int64'),np.dtype('float64')]) 
+df.select_dtypes(include=['float64', 'int64'])
 ```
 
