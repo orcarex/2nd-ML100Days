@@ -22,5 +22,10 @@
 
 **2019-4-20** — 同樣在作業六，稍微看了一下補充資料中關於統計相關的知識點，但是資料處理的程式碼方面還是不夠熟悉，所以又補了一下關於numpy，pandas程式庫的基本概念。折騰了一段時間終於把ecdf(經驗分佈函數)畫出來。
 
-**2019-4-21** — 發現作業六關於[型別判斷的問題](<https://www.cupoy.com/qa/kwassist/ai_tw/0000016A3B608C23000003B66375706F795F72656C656173655155455354>)，並且修改程式碼。
+**2019-4-21** — 發現作業六關於[型別判斷的問題](<https://www.cupoy.com/qa/kwassist/ai_tw/0000016A3B608C23000003B66375706F795F72656C656173655155455354>)，並且修改程式碼。有下面兩種寫法。
+
+```python
+app_train.dtypes.isin([np.dtype('int64'),np.dtype('float64')]) 
+app_train.select_dtypes(include=['float64', 'int64'])
+```
 
