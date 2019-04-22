@@ -29,3 +29,4 @@ df.dtypes.isin([np.dtype('int64'),np.dtype('float64')])
 df.select_dtypes(include=['float64', 'int64'])
 ```
 
+**2019-4-22** — 作業七比較晚才出來，所以比較晚才能開始做···。
