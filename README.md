@@ -33,6 +33,15 @@ df.select_dtypes(include=['float64', 'int64'])
 
 **2019-4-23** — 作業八在分群畫boxplot圖的時候遇到一些困難，先休息做一下其他事情。發現各種標準化方法，今天用到的是 `z-transform`，數值會有正負。
 
+```python
+plt_column = 'AMT_INCOME_TOTAL'
+plt_by = ['CNT_CHILDREN_GROUP','TARGET']
+
+app_train.boxplot(column=plt_column, by = plt_by, showfliers = False, figsize=(12,12))
+plt.suptitle('')
+plt.show()
+```
+
 #### 連續值標準化
 ##### 1. Z-transform: $ \frac{(x - mean(x))}{std(x)} $
 ##### 2. Range (0 ~ 1): $ \frac{x - min(x)}{max(x) - min(x)} $
@@ -44,7 +53,7 @@ df.select_dtypes(include=['float64', 'int64'])
 相關係數`Correlation Coefficient`可以用來了解各個欄位和我們所預測的目標之間的關係指標，衡量兩個隨機變數之間的強度和方向。
 ```
 
-
+**2019-4-24** — 訂正作業八錯誤的地方，另外不太理解其中關於`TARGET`這個column的意義。 — 發現`TARGET`是資料為有還款困難的標記，超過X天沒還款。目前從boxplot圖表中看到的還款與否跟收入相關性並不高(小孩少於五的狀況)。
 
 
 
