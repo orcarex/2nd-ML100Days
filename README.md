@@ -57,5 +57,15 @@ plt.show()
 
 **2019-4-25** — 第十天作業，相關係數的實作和畫圖，Series轉換DataFrame的方法，DataFrame畫成方塊圖等等的技巧和練習。
 
+**2019-4-25** — 第十一天作業，畫圖。
+
+```python
+year_group_sorted = pd.unique(age_data.YEARS_BINNED)
+```
+
+
+
+
+
 
 
