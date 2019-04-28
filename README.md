@@ -57,13 +57,23 @@ plt.show()
 
 **2019-4-25** — 第十天作業，相關係數的實作和畫圖，Series轉換DataFrame的方法，DataFrame畫成方塊圖等等的技巧和練習。
 
-**2019-4-25** — 第十一天作業，畫圖。
+**2019-4-26** — 第十一天作業，畫圖以及變換圖表樣式，各種語言或是平台的實現方式，以及資料操作和運算手法。
 
 ```python
 year_group_sorted = pd.unique(age_data.YEARS_BINNED)
 ```
 
+**2019-4-27** — 作業十二，連續型變數離散化。教一些分切的方式例如`pd.cut`後輸入切成幾份、`pd.qcut`後輸入多少頻率分切亦或是個人化的方式分切。
 
+```python
+customized_age_grp = [0,10,20,30,50,100]
+ages['customized_age']=pd.cut(ages['age'],bins=customized_age_grp)
+ages['customized_age'].value_counts()
+```
+
+今天的作業感覺比較簡單(單純?)可能讓我們消化一下前幾天的作業:joy:。
+
+**2019-4-28** — 
 
 
 
