@@ -83,5 +83,11 @@ ages['customized_age'].value_counts()
 
 **2019-5-4** — 作業十七，認識了特徵值、練習將資料上傳到kaggle取得分數。
 
+**2019-5-4** — 作業十八，認識特徵工程，因為作業十七只是做最簡單暴力的處理，現在要試著進一步認識各種資料類別型態，並且把它做更細緻的分類和分析。
+
+![feature_engineering](./image/feature_engineering.png)
+
+— 特徵工程和特徵的分類表
+
 
 
