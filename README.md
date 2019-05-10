@@ -118,3 +118,5 @@ from sklearn.linear_model import LogisticRegression
 ![mean_encoding](./image/mean_encoding.png)
 
 **2019-5-10** — 作業二十四，計數編碼和雜湊編碼。出現一個cell程式碼順序錯誤的bug，因為不小心按到熱鍵之類的...，以後要小心。
+
+**2019-5-10** — 作業二十五，根據時間，加入週期性特徵，但表現很像沒有比較好。
