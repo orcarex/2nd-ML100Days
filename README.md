@@ -102,5 +102,9 @@ ages['customized_age'].value_counts()
 
 ```python
 from scipy import stats
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import cross_val_score
+from sklearn.linear_model import LogisticRegression
 ```
 
+**2019-5-10** — 作業二十二，關於LabelEncoder和One-hot編碼，和其對資料分析時間和準確度的影響。
