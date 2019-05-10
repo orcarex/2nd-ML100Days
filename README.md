@@ -116,3 +116,5 @@ from sklearn.linear_model import LogisticRegression
 * 平滑化可以修正overfitting的問題但是效果有限。
 
 ![mean_encoding](./image/mean_encoding.png)
+
+**2019-5-10** — 作業二十四，計數編碼和雜湊編碼。出現一個cell程式碼順序錯誤的bug，因為不小心按到熱鍵之類的...，以後要小心。
