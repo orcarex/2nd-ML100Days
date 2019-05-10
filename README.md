@@ -108,3 +108,11 @@ from sklearn.linear_model import LogisticRegression
 ```
 
 **2019-5-10** — 作業二十二，關於LabelEncoder和One-hot編碼，和其對資料分析時間和準確度的影響。
+
+**2019-5-10** — 作業二十三，關於均值編碼的介紹，和可能發生的問題。
+
+* 與目標值明顯相關時再使用均值編碼。
+* 非常容易overfitting。
+* 平滑化可以修正overfitting的問題但是效果有限。
+
+![mean_encoding](./image/mean_encoding.png)
