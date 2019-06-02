@@ -144,3 +144,5 @@ from sklearn.linear_model import LogisticRegression
 **2019-5-28** — 作業三十三，機械學習在數學上的定義，和基礎三步驟；選擇函數組、定義這個函數有多好、逼進這個函數(Gradient Descent)。
 
 **2019-5-30** — 作業三十四，試著用numpy做陣列操作，並且試著用scikit做資料的切分。
+
+**2019-6-2** — 作業三十五，了解多標籤(multi-label)問題。
