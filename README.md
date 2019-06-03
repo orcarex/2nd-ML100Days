@@ -146,3 +146,10 @@ from sklearn.linear_model import LogisticRegression
 **2019-5-30** — 作業三十四，試著用numpy做陣列操作，並且試著用scikit做資料的切分。
 
 **2019-6-2** — 作業三十五，了解多標籤(multi-label)問題。
+
+**2019-6-2** — 作業三十六，評估指標的種類。
+
+* 回歸問題 — R-square
+* 分類問題 — AUC(二分類)、希望某類別不要分錯(F1-score)、top-k accuracy(多分類問題)
+
+**2019-6-3** — 作業三十七，
