@@ -152,4 +152,4 @@ from sklearn.linear_model import LogisticRegression
 * 回歸問題 — R-square
 * 分類問題 — AUC(二分類)、希望某類別不要分錯(F1-score)、top-k accuracy(多分類問題)
 
-**2019-6-3** — 作業三十七，
+**2019-6-3** — 作業三十七，了解線性回歸的發展。
