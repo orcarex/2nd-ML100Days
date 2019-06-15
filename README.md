@@ -158,3 +158,4 @@ from sklearn.linear_model import LogisticRegression
 
 **2019-6-14** — 作業三十九，LASSO, Ridge Regression的認識，正則化函數的認識；由回歸模型加上不同的正則化函數組成，LASSO 為 Linear Regression 加上 L1 , Redge 為 Linear Regression 加上 L2，超參數α可以調整正則化強度。
 
+**2019-6-15** — 作業四十，利用Linear,LASSO和Ridge實作模型，並且調整α值看結果的變化。
