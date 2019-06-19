@@ -161,3 +161,5 @@ from sklearn.linear_model import LogisticRegression
 **2019-6-15** — 作業四十，利用Linear,LASSO和Ridge實作模型，並且調整α值看結果的變化。
 
 **2019-6-17** — 作業四十一，決策樹和隨機森林的深入說明。
+
+**2019-6-18** — 作業四十二，昨天的決策樹實作和超參數調整。
