@@ -170,3 +170,4 @@ from sklearn.linear_model import LogisticRegression
 因為有額外看一些資料和例子，在這些名詞不斷重複下，覺得名詞熟悉，而且概念性的東西了解了之後，其實有些東西在原理上沒有那麼難。
 ```
 
+**2019-6-20** — 作業四十四，隨機森林的 scikit-learn 實作。
