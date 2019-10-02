@@ -171,3 +171,15 @@ from sklearn.linear_model import LogisticRegression
 ```
 
 **2019-6-20** — 作業四十四，隨機森林的 scikit-learn 實作。
+
+**？？？？**  — `作業四十五 ～作業 四十八忘記記錄了`
+
+45 — 梯度提升機 Gradient Boosting Machine 原理
+
+46 — 梯度提升機 Gradient Boosting Machine 程式碼
+
+47 — 超參數優化 (Hyper-parameter)
+
+48 — Kaggle 競賽平台介紹
+
+**2019-10-1** — 作業四十九，混合泛化方法 Blending and Kaggle 上傳嘗試與實作
