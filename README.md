@@ -183,3 +183,5 @@ from sklearn.linear_model import LogisticRegression
 48 — Kaggle 競賽平台介紹
 
 **2019-10-1** — 作業四十九，混合泛化方法 Blending and Kaggle 上傳嘗試與實作
+
+**2019-10-5** — 作業五十，集成泛化方法 stacking and gaggle
